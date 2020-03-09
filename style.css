@@ -113,6 +113,16 @@ div.logos_S2 div {
     margin: 10px 0px;
 }
 
+div.imagen_S2 {
+    background-image: url("https://www.watsay.com/2791-thickbox_default/tabla-de-surf-watsay-graffiti.jpg");
+    background-position-x: center;
+}
+
+div.descripcion_S2 {
+    top: 140px;
+    left: -70px;
+}
+
 .icon_img {
 	max-width: 100px;	
 }
