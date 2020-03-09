@@ -1,0 +1,60 @@
+@font-face {
+	font-family: "REvolution";
+	src: url("font/Revol-Regular-SVG.otf");
+	src:
+	url("font/Revol-Regular-SVG.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "sen-bold";
+	src: url("font/sen-bold.otf");
+	src:
+	url("font/sen-bold.otf") format("opentype");
+}
+
+@media screen and (min-width: 1088px) {
+	.navbar {
+	    min-height: 6.25rem;
+	}
+}
+
+* {
+	font-family: "sen-bold";
+}
+
+
+div.texto_S1 {
+	z-index: 1;
+}
+
+div.texto_S1 h1 {
+	text-transform: uppercase;
+    font-size: 69px;
+    /*font-size: 39px; */
+    color: #000;
+    position: relative;
+    top: 47%;
+    white-space: nowrap;
+
+}
+
+div.text_lateral_izquierdo h4{
+	transform: rotate(90deg);
+    white-space: nowrap;
+    /*margin-top: 110px;*/
+    position: relative;
+    top: 40%;
+    text-transform: uppercase;
+    font-size: 11px;
+    left: -30px;
+}
+/*
+div.imagen_S1 img {
+	width: 100%;
+}
+*/
+
+div.imagen_S1 {
+	background-image: url("https://as01.epimg.net/deportes_accion/imagenes/2019/12/17/surf/1576584691_442836_1576585813_noticia_normal_recorte1.jpg");
+}
+
