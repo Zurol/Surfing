@@ -12,6 +12,13 @@
 	url("font/sen-bold.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "sen-regular";
+    src: url("font/sen-bold.otf");
+    src:
+    url("font/sen-bold.otf") format("opentype");
+}
+
 @media screen and (min-width: 1088px) {
 	.navbar {
 	    min-height: 6.25rem;
@@ -27,18 +34,30 @@ div.texto_S1 {
 	z-index: 1;
 }
 
-div.texto_S1 h1 {
+
+div.texto_S1 {
+	top: 130px;
+    left: 30px;
+}
+
+h1 {
 	text-transform: uppercase;
     font-size: 69px;
     /*font-size: 39px; */
     color: #000;
-    position: relative;
-    top: 47%;
     white-space: nowrap;
+    line-height: 0.8;
+    letter-spacing: -4px;
 
 }
 
-div.text_lateral_izquierdo h4{
+h3 {
+	color: #403C3E;
+    letter-spacing: -0.9px;
+    white-space: nowrap;
+}
+
+h4{
 	transform: rotate(90deg);
     white-space: nowrap;
     /*margin-top: 110px;*/
@@ -48,13 +67,66 @@ div.text_lateral_izquierdo h4{
     font-size: 11px;
     left: -30px;
 }
-/*
-div.imagen_S1 img {
-	width: 100%;
+
+
+
+h5{
+    color: #2fc3da;
+    letter-spacing: -0.9px;
+    white-space: nowrap;
+    text-transform: uppercase;
 }
-*/
+
+button.btn {
+    border-radius: 2px;
+}
+
+button.btn_css {
+	background: #2fc3da;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: 15px;
+    padding: 5px 30px;
+    letter-spacing: 1px;
+}
+
+button.btn_bord {
+    border: 1px solid #2fc3da;
+    background: none;
+    color: #000;
+}
 
 div.imagen_S1 {
 	background-image: url("https://as01.epimg.net/deportes_accion/imagenes/2019/12/17/surf/1576584691_442836_1576585813_noticia_normal_recorte1.jpg");
 }
 
+div.logo_cuadro {
+	height: 100px;
+    width: 100px;
+    /*background: #198989;*/
+    border: 0px solid #198989;
+}
+
+div.logos_S2 div {
+	text-align: -webkit-center;
+    margin: 10px 0px;
+}
+
+.icon_img {
+	max-width: 100px;	
+}
+
+.disble_icon {
+	filter: grayscale(1);
+}
+
+.title_other {
+    font-size: 100px;
+    display: table-row-group;
+    line-height: 1px;
+}
+
+.subtitle_other{
+    font-size: 35px;
+}
