@@ -14,9 +14,17 @@
 
 @font-face {
     font-family: "sen-regular";
-    src: url("font/sen-bold.otf");
+    src: url("font/sen-regular.otf");
     src:
-    url("font/sen-bold.otf") format("opentype");
+    url("font/sen-regular.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: "sen-extrabold";
+    src: url("font/sen-extrabold.otf");
+    src:
+    url("font/sen-extrabold.otf") format("opentype");
 }
 
 @media screen and (min-width: 1088px) {
@@ -48,7 +56,7 @@ h1 {
     white-space: nowrap;
     line-height: 0.8;
     letter-spacing: -4px;
-
+    font-family: "sen-extrabold";
 }
 
 h3 {
@@ -69,6 +77,11 @@ h4{
 }
 
 
+.text_lateral_izquierdo h4{
+    transform: rotate(-90deg);
+    left: 20px;
+    top: 70%;
+}
 
 h5{
     color: #2fc3da;
@@ -89,6 +102,7 @@ button.btn_css {
     margin-top: 15px;
     padding: 5px 30px;
     letter-spacing: 1px;
+    white-space: nowrap;
 }
 
 button.btn_bord {
@@ -139,4 +153,20 @@ div.descripcion_S2 {
 
 .subtitle_other{
     font-size: 35px;
+}
+
+div p {
+    font-family: "sen-regular";
+    font-size: 12px;
+}
+
+.panel_lateral {
+    background-color: #fff;
+    left: -100px;
+    top: 25px;
+    padding: 20px 20px;
+}
+
+.container-fluid .row {
+    background: #f9ffff;
 }
