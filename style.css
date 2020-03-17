@@ -59,6 +59,16 @@ h1 {
     font-family: "sen-extrabold";
 }
 
+h2 {
+    text-transform: uppercase;
+    font-size: 39px;
+    color: #000;
+    white-space: nowrap;
+    line-height: 1.0;
+    letter-spacing: -4px;
+    font-family: "sen-bold";
+}
+
 h3 {
 	color: #403C3E;
     letter-spacing: -0.9px;
@@ -168,5 +178,81 @@ div p {
 }
 
 .container-fluid .row {
-    background: #f9ffff;
+    /* background: #f9ffff; */
 }
+
+.section_container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.image_sub {
+    font-family: "sen-regular";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px;
+    padding: 0px 10px;
+}
+
+.black_green {
+    text-decoration: line-through #198989;
+}
+
+.black_gray {
+    color: #adaeaf;
+}
+
+div img {
+    height: unset;
+    width: inherit;
+}
+
+.footer {
+    background-color: #000;
+}
+
+
+.about_text {
+    top: 20px;
+}
+
+
+.text_lateral_izquierdo_bottom {
+    color: #FFF;
+    top: 0px;
+}
+
+
+.redes_bottom label{
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 10px;
+    width: 90px;
+}
+
+ul {
+    font-size: 13px;
+    padding: 5px 0px 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+   text-transform: uppercase;
+}
+
+
+ul.navbar-nav.mr-auto {
+    padding-bottom: 5px
+}
+
+@media screen and (min-width: 1088px) {
+    .navbar {
+        min-height: 3.25rem;
+    }
+}
+
+.logo_cuadro_home {
+    height: 50px;
+    width: 50px;
+}
+
+
