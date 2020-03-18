@@ -1,0 +1,28 @@
+%!Adobe-FontList 1.20
+%Locale:0x80a
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Sen-Bold
+FamilyName:Sen
+StyleName:Bold
+FullName:Sen Bold
+MenuName:Sen
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Zurol\OneDrive\Escritorio\Otros_Personal\Documentos\RE - Code\Surfing\Font\sen-bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:28708
+FileModTime:1497448060
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Sen Bold
+NameArray:0,Win,1,Sen
+%EndFont
+
