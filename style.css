@@ -73,6 +73,7 @@ h3 {
 	color: #403C3E;
     letter-spacing: -0.9px;
     white-space: nowrap;
+    margin-top: 10px;
 }
 
 h4{
@@ -148,7 +149,7 @@ div.descripcion_S2 {
 }
 
 .icon_img {
-	max-width: 100px;	
+	max-width: 100px;
 }
 
 .disble_icon {
@@ -168,6 +169,7 @@ div.descripcion_S2 {
 div p {
     font-family: "sen-regular";
     font-size: 12px;
+    padding-top: 10px;
 }
 
 .panel_lateral {
@@ -213,7 +215,7 @@ div img {
 
 
 .about_text {
-    top: 20px;
+    top: 40px;
 }
 
 
@@ -241,7 +243,8 @@ ul {
 
 
 ul.navbar-nav.mr-auto {
-    padding-bottom: 5px
+    padding-bottom: 5px;
+    padding-top: 1px;
 }
 
 @media screen and (min-width: 1088px) {
@@ -256,3 +259,6 @@ ul.navbar-nav.mr-auto {
 }
 
 
+.navbar-dark {
+    background: black;
+}
